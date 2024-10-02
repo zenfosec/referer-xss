@@ -3,6 +3,7 @@
 ### Starting the server
 
 Start the server from the repo directory with:
+
 ```
 php -S 0.0.0.0:80
 ```
